@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bandas>
+	<banda>
+	   <nome>Led Zeppelin</nome>
+	</banda>
+	<banda>
+	   <nome>Judas Priest</nome>
+	</banda>
+	<banda>
+	   <nome>Black Sabbath</nome>
+	</banda>
+	<banda>
+	   <nome>Iron Maden</nome>
+	</banda>
+	<banda>
+	   <nome>Metallica</nome>
+	</banda>
+	<banda>
+	   <nome>Beatles</nome>
+	</banda>
+</bandas>
