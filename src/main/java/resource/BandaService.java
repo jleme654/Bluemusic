@@ -22,7 +22,6 @@ public class BandaService implements Serializable {
 
     private ArrayList<Banda> listaBandas;
 
-    @GET
     @Path("/getBandas")
     @Produces(MediaType.TEXT_XML)
     public ArrayList<Banda> getBandas() {
