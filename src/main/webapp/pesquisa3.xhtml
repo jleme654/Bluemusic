@@ -17,10 +17,9 @@
                     Pesquisa 3 > Escolha sua banda preferida >
                 </f:facet>
                 
-                <h:panelGrid columns="3" style="width:50%" columnClasses="logo,detail">
+                <h:panelGrid columns="2" style="width:100%" columnClasses="logo,detail">
                     <p:outputPanel>
                         <h:panelGrid columns="3" cellpadding="5">
-                            <p:graphicImage value="#{dataScrollerView.getImageBand(b.id)}" />
                             <h:outputText value="#{b.nome}" style="font-weight: bold"/>
                             <p:commandButton value="Escolher" onclick="PF('dlg1').show();"/>
                         </h:panelGrid>
